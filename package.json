@@ -10,6 +10,13 @@
     "mocha": "1.20.1",
     "supertest": "0.13.0"
   },
+  "config": {
+    "service": "FRONTEND",
+    "service_short": "frontend",
+    "reporter": "jslint",
+    "distribution": "./distribution",
+    "build": "./distribution/build"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "./node_modules/.bin/mocha ./test/test.js",
